@@ -172,9 +172,9 @@ img {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
-
+  background-position: center;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -306,5 +306,16 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
   margin-bottom: 8px;
 }
