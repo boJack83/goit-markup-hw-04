@@ -389,3 +389,32 @@ img {
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
 }
+
+.footer-flex {
+  display: flex;
+  align-items: baseline,
+}
+
+.footer-box-logo {
+  margin-right: 120px
+}
+
+.text-social {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.footer-icons-list {
+  display: flex;
+  gap: 16px;
+
+}
+
+.social-link-footer-hover:hover,
+.social-link-footer-hover:focus {
+  background-color: #31d0aa;
+}
